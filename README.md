@@ -49,3 +49,16 @@ bundle.js  11.8 kB       0  [emitted]  main
     + 4 hidden modules
 ```
 
+## BINDING LOADERS
+```
+$ ./node_modules/.bin/webpack public/javascripts/getting_started/entry.js public/javascripts/getting_started/bundle.js --module-bind 'css=style!css'
+Hash: ec88ecd517045d49900f
+Version: webpack 1.13.1
+Time: 641ms
+    Asset     Size  Chunks             Chunk Names
+bundle.js  11.9 kB       0  [emitted]  main
+   [0] ./public/javascripts/getting_started/entry.js 198 bytes {0} [built]
+   [5] ./public/javascripts/getting_started/content.js 47 bytes {0} [built]
+    + 4 hidden modules
+```
+
