@@ -106,3 +106,32 @@ Time: 11ms
 ^C
 ```
 
+## DEVELOPMENT SERVER
+```
+$ ./node_modules/.bin/webpack-dev-server --progress --colors           0% compilehttp://localhost:8080/webpack-dev-server/
+webpack result is served from /
+content is served from /Users/tayutaedomo/project/javascript/webpack-trial                        Hash: f1251e7d163355207cf6
+Version: webpack 1.13.1
+Time: 668ms
+                                         Asset     Size  Chunks             Chunk Names
+./public/javascripts/getting_started/bundle.js  11.9 kB       0  [emitted]  main
+chunk    {0} ./public/javascripts/getting_started/bundle.js (main) 10 kB [rendered]
+    [0] ./public/javascripts/getting_started/entry.js 196 bytes {0} [built]
+    [1] ./public/stylesheets/getting_started/style.css 931 bytes {0} [built]
+    [2] ./~/css-loader!./public/stylesheets/getting_started/style.css 200 bytes {0} [built]
+    [3] ./~/css-loader/lib/css-base.js 1.51 kB {0} [built]
+    [4] ./~/style-loader/addStyles.js 7.15 kB {0} [built]
+    [5] ./public/javascripts/getting_started/content.js 47 bytes {0} [built]
+webpack: bundle is now VALID.
+webpack: bundle is now INVALID.                                                                   Hash: a961554edb803c33642d
+Version: webpack 1.13.1
+Time: 9ms
+                                         Asset     Size  Chunks             Chunk Names
+./public/javascripts/getting_started/bundle.js  11.9 kB       0  [emitted]  main
+chunk    {0} ./public/javascripts/getting_started/bundle.js (main) 10 kB [rendered]
+    [0] ./public/javascripts/getting_started/entry.js 198 bytes {0} [built]
+     + 5 hidden modules
+webpack: bundle is now VALID.
+^C
+```
+
