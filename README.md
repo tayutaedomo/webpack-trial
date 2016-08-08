@@ -87,3 +87,22 @@ Time: 673ms
     + 4 hidden modules
 ```
 
+## WATCH MODE
+```
+$ ./node_modules/.bin/webpack --progresHash: a961554edb803c33642d
+Version: webpack 1.13.1
+Time: 706ms
+                                         Asset     Size  Chunks             Chunk Names
+./public/javascripts/getting_started/bundle.js  11.9 kB       0  [emitted]  main
+   [0] ./public/javascripts/getting_started/entry.js 198 bytes {0} [built]
+   [5] ./public/javascripts/getting_started/content.js 47 bytes {0} [built]
+    + 4 hidden modules                 Hash: f1251e7d163355207cf6
+Version: webpack 1.13.1
+Time: 11ms
+                                         Asset     Size  Chunks             Chunk Names
+./public/javascripts/getting_started/bundle.js  11.9 kB       0  [emitted]  main
+   [0] ./public/javascripts/getting_started/entry.js 196 bytes {0} [built]
+    + 5 hidden modules
+^C
+```
+
